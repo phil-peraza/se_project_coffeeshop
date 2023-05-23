@@ -11,7 +11,7 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  background-image: url("/se_project_coffeeshop/images/background_header.svg");
+  background-image: url("/images/background_header.svg");
   background-color: #FFF;
   size: cover;
 }
@@ -90,3 +90,9 @@
   margin: 0 0 0 auto;
 }
 
+.recipes {
+  background-color: #0A2750;
+  background-image: url(/images/background_recipes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
