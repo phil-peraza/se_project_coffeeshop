@@ -155,3 +155,20 @@
   color: #FFF;
   margin: 0;
 }
+
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url(/images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px auto 120px auto;
+}
+
+.reservation__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
