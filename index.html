@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Practicum coffeeshop webpage">
-    <meta name="author" content="Felipe Peraza">
-    <meta name="keywords" content="practicum, coffeeshop, menu">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practicum coffeeshop webpage" />
+    <meta name="author" content="Felipe Peraza" />
+    <meta name="keywords" content="practicum, coffeeshop, menu" />
     <title>Practicum Coffee Shop</title>
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="stylesheet" href="pages/index.css">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page">
       <header class="header">
-       <nav class="nav">
+        <nav class="nav">
           <img
             src="images/logo_coffee_shop.svg"
             alt="Coffeeshop logo"
@@ -45,99 +47,122 @@
             </li>
           </ul>
         </nav>
-          <h1 class="header__title"><span class="header__span-accent">Specialty Coffee</span>
-            in the Practicum Library
-          </h1>
-          <p class="header__description">
-            Welcome to our study zone! We've got the coffee to energize you
-            and the cozy vibes to help you get creative.
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty Coffee</span>
+          in the Practicum Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="images/inside_coffee_shop.png"
+          alt="Coffeeshop layout"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <ul class="header__paragraph">
+            <li>Hours:</li>
+            <li>Monday – Friday (10:00 – 19:00)</li>
+            <li>Saturday – Sunday (11:00 – 18:00)</li>
+          </ul>
+          <p class="header__address">
+            200 Success Avenue, The Town of Practicum
           </p>
-          <img
-            src="images/inside_coffee_shop.png"
-            alt="Coffeeshop layout"
-            class="header__image"
-            />
-            <div class="header__footer">
-              <ul class="header__paragraph">
-                <li>Hours:</li>
-                <li>Monday – Friday (10:00 – 19:00)</li>
-                <li>Saturday – Sunday (11:00 – 18:00)</li>
-              </ul>
-              <p class="header__address">
-                200 Success Avenue, The Town of Practicum
-              </p>
-            </div>
+        </div>
       </header>
       <main class="content">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
-            Check out some recipes we've collected
-            for your home-brewing convenience:
+            Check out some recipes we've collected for your home-brewing
+            convenience:
           </p>
-            <ul class="recipes__videos">
-              <li>
-                <iframe class="recipes__iframe"
-                width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc"
+          <ul class="recipes__videos">
+            <li>
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="Aeropress recipe"
                 allow="accelerometer; clipboard-write; encrypted-media;
                 gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-              </li>
+                allowfullscreen
+              ></iframe>
+            </li>
 
-              <li>
-                <iframe class="recipes__iframe"
-                width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8"
+            <li>
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8"
                 title="French press recipe"
                 allow="accelerometer; clipboard-write; encrypted-media;
                 gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-              </li>
+                allowfullscreen
+              ></iframe>
+            </li>
 
-              <li class="recipes__video-captions-list">
-                 <p class="recipes__video-caption">Aeropress recipe</p>
-                 <p class="recipes__video-caption">~5 min</p>
-              </li>
+            <li class="recipes__video-captions-list">
+              <p class="recipes__video-caption">Aeropress recipe</p>
+              <p class="recipes__video-caption">~5 min</p>
+            </li>
 
-              <li class="recipes__video-captions-list">
-                  <p class="recipes__video-caption">French press recipe</p>
-                  <p class="recipes__video-caption">~15 min</p>
-              </li>
-            </ul>
+            <li class="recipes__video-captions-list">
+              <p class="recipes__video-caption">French press recipe</p>
+              <p class="recipes__video-caption">~15 min</p>
+            </li>
+          </ul>
         </section>
         <section class="reservation" id="booking">
           <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation__form">
-            <fieldset class="form__fieldset">
-              <label class="form__label">Name *</label>
+          <div class="reservation__form">
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <label class="form__label" for="name">Name *</label>
                 <input
                   type="text"
-                  class="form__input"/>
-              <label class="form__label">Number of guests *</label>
+                  class="form__input"
+                  id="name"
+                  placeholder="Name Surname"
+                />
+                <label class="form__label" for="guests"
+                  >Number of guests *</label
+                >
                 <input
                   type="number"
-                  class="form__input"/>
-              <label class="form__label">Date & time *</label>
-                <input
-                  type="datetime-local"
-                  class="form__input"/>
-              <label class="form__label">Your email *</label>
+                  class="form__input"
+                  id="guests"
+                  placeholder="1-8"
+                />
+                <label class="form__label" for="date">Date & time *</label>
+                <input type="datetime-local" class="form__input" id="date" />
+                <label class="form__label" for="email">Your email *</label>
                 <input
                   type="email"
-                  class="form__input"/>
-            </fieldset>
-            <fieldset class="form__fieldset">
-              <button type="submit" class="form__button">Book a table</button>
-            </fieldset>
-            <fieldset class="form__fieldset">
-              <input
-                type="checkbox"
-                class="form__checkbox"
-                name="terms-of-use"
-                id="terms-of-use" />
-                <label class="form__label" for="terms-of-use">I agree with the terms of use</label>
-            </fieldset>
-          </form>
+                  class="form__input"
+                  id="email"
+                  placeholder="email@email.com"
+                />
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <button type="submit" class="form__button">Book a table</button>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  name="terms-of-use"
+                  id="terms-of-use"
+                />
+                <label class="form__label" for="terms-of-use"
+                  >I agree with the terms of use</label
+                >
+              </fieldset>
+            </form>
+          </div>
         </section>
         <section class="menu" id="cafe-menu"></section>
         <section class="about" id="contacts"></section>
