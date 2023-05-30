@@ -13,8 +13,7 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 780px;
-  margin: 0 auto 24px auto;
-  padding-top: ;
+  margin: 100px auto 24px auto;
   text-align: center;
 }
 
@@ -30,12 +29,18 @@
 }
 
 .menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  gap: 100px;
+  margin-bottom: 100px;
 }
 
 .card {
   list-style-type: none;
-  max-width: 540px;
+  width: 540px;
   margin: 0;
+  padding-left: 0;
 }
 
 .card__title {
@@ -45,6 +50,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 32px;
+  margin-top: 0;
 }
 
 .card__list-item {
@@ -58,8 +64,13 @@
   margin-bottom: 16px;
 }
 
+.card__list-item:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
 .card__list-divider {
-  flex-grow: 3;
-  border-bottom: 1px;
+  flex-grow: 0.95;
+  border-bottom: inset;
+  border-width: 1px;
   border-color: #000;
 }
