@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 30px 80px 0 0;
+}
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: 1s;
+}
