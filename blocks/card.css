@@ -2,7 +2,7 @@
   list-style-type: none;
   width: 540px;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 .card__title {
@@ -13,6 +13,10 @@
   line-height: 30px;
   margin-bottom: 32px;
   margin-top: 0;
+}
+
+.card__list {
+  padding-left: 0;
 }
 
 .card__list-item {
