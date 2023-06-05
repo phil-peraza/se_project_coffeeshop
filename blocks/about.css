@@ -25,7 +25,6 @@
 
 .about__title {
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -36,8 +35,6 @@
 
 .about__content {
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
@@ -67,11 +64,6 @@
 }
 
 .about__circle_animation_blurred {
-  height: 426px;
-  width: 426px;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  position: absolute;
   top: -152px;
   left: -129px;
   animation: pulse 1.3s ease-in-out infinite;

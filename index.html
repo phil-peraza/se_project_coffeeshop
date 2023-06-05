@@ -58,11 +58,11 @@
           class="header__image"
         />
         <div class="header__footer">
-        <div class="header__paragraph">Hours:</div>
+        <div class="header__paragraph">Hours:
           <ul class="header__paragraph">
             <li>Monday – Friday (10:00 – 19:00)</li>
             <li>Saturday – Sunday (11:00 – 18:00)</li>
-          </ul>
+          </ul></div>
           <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
           </p>
@@ -85,6 +85,10 @@
                 gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
+              <div class="recipes__video-captions-list">
+                <p class="recipes__video-caption">Aeropress recipe</p>
+                <p class="recipes__video-caption">~5 min</p>
+              </div>
             </li>
 
             <li>
@@ -96,18 +100,13 @@
                 gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-            </li>
-
-            <li class="recipes__video-captions-list">
-              <p class="recipes__video-caption">Aeropress recipe</p>
-              <p class="recipes__video-caption">~5 min</p>
-            </li>
-
-            <li class="recipes__video-captions-list">
-              <p class="recipes__video-caption">French press recipe</p>
-              <p class="recipes__video-caption">~15 min</p>
+              <div class="recipes__video-captions-list">
+                <p class="recipes__video-caption">French press recipe</p>
+                <p class="recipes__video-caption">~15 min</p>
+              </div>
             </li>
           </ul>
+
         </section>
         <section class="reservation" id="booking">
           <h2 class="reservation__title">Book a table</h2>
@@ -120,6 +119,7 @@
                 class="form__input"
                 id="name"
                 placeholder="Name Surname"
+                required
               />
               <label class="form__label" for="guests">Number of guests *</label>
               <input
@@ -127,29 +127,36 @@
                 class="form__input"
                 id="guests"
                 placeholder="1-8"
+                required
               />
               <label class="form__label" for="date">Date & time *</label>
-              <input type="datetime-local" class="form__input" id="date" />
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                required
+              />
               <label class="form__label" for="email">Your email *</label>
               <input
                 type="email"
                 class="form__input"
                 id="email"
                 placeholder="email@email.com"
+                required
               />
             </fieldset>
             <fieldset class="form__fieldset">
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
             <fieldset class="form__fieldset">
-              <input
+
+              <label class="form__label" for="terms-of-use"
+                ><input
                 type="checkbox"
                 class="form__checkbox"
                 name="terms-of-use"
                 id="terms-of-use"
-              />
-              <label class="form__label" for="terms-of-use"
-                >I agree with the terms of use</label
+              />I agree with the terms of use</label
               >
             </fieldset>
           </form>
@@ -278,7 +285,7 @@
       <footer class="footer">
         <div class="footer__content">
           <div class="footer__logo">
-            <img src="/images/practicum_logo.svg" alt="practicum logo" />
+            <img src="../images/practicum_logo.svg" alt="practicum logo" />
           </div>
 
           <div class="footer__social">

@@ -1,8 +1,5 @@
 .card {
-  list-style-type: none;
   width: 540px;
-  margin: 0;
-  padding: 0;
 }
 
 .card__title {
@@ -16,6 +13,7 @@
 }
 
 .card__list {
+  list-style: none;
   padding-left: 0;
 }
 
