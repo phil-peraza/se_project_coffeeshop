@@ -59,7 +59,7 @@
         />
         <div class="header__footer">
         <div class="header__paragraph">Hours:
-          <ul class="header__paragraph">
+          <ul class="header__paragraph-list">
             <li>Monday – Friday (10:00 – 19:00)</li>
             <li>Saturday – Sunday (11:00 – 18:00)</li>
           </ul></div>
@@ -85,7 +85,7 @@
                 gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-captions-list">
+              <div class="recipes__video-captions">
                 <p class="recipes__video-caption">Aeropress recipe</p>
                 <p class="recipes__video-caption">~5 min</p>
               </div>
@@ -100,7 +100,7 @@
                 gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video-captions-list">
+              <div class="recipes__video-captions">
                 <p class="recipes__video-caption">French press recipe</p>
                 <p class="recipes__video-caption">~15 min</p>
               </div>
@@ -150,14 +150,12 @@
             </fieldset>
             <fieldset class="form__fieldset">
 
-              <label class="form__label" for="terms-of-use"
-                ><input
+              <label class="form__label form__label_type_checkbox">
+                <input
                 type="checkbox"
                 class="form__checkbox"
                 name="terms-of-use"
-                id="terms-of-use"
-              />I agree with the terms of use</label
-              >
+              />I agree with the terms of use</label>
             </fieldset>
           </form>
         </section>
@@ -285,7 +283,7 @@
       <footer class="footer">
         <div class="footer__content">
           <div class="footer__logo">
-            <img src="../images/practicum_logo.svg" alt="practicum logo" />
+            <img src="/images/practicum_logo.svg" alt="practicum logo" />
           </div>
 
           <div class="footer__social">

@@ -5,8 +5,8 @@
 }
 
 .form__fieldset {
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 0;
+  margin-right: 0;
   border: none;
   padding: 0;
 }
@@ -20,12 +20,13 @@
   line-height: 20px;
 }
 
-.form__label[for="terms-of-use"] {
+.form__label_type_checkbox {
   margin: 32px 0 0 0;
   display: flex;
   justify-content: center;
   gap: 12px;
 }
+
 
 .form__input {
   box-sizing: border-box;

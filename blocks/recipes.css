@@ -3,6 +3,7 @@
   background-image: url(../images/background_recipes.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   padding: 100px 80px 215px 80px;
 }
 
@@ -44,7 +45,7 @@
   height: 273px;
 }
 
-.recipes__video-captions-list {
+.recipes__video-captions {
   margin: 24px 0 0 0;
   display: flex;
   justify-content: space-between;
