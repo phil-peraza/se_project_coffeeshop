@@ -7,9 +7,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: 1;
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -18,6 +19,7 @@
   line-height: 72px;
   font-weight: 500;
   margin: 0 0 28px 80px;
+
 }
 
 .header__span-accent {
@@ -38,12 +40,12 @@
 }
 
 .header__image {
-  z-index: 2;
-  width: 646px;
-  height: 568px;
+  max-width: 646px;
+  max-height: 568px;
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
