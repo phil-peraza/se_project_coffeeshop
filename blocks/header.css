@@ -64,6 +64,12 @@
   max-width: 345px;
 }
 
+.header__paragraph-heading {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 .header__paragraph-list {
   list-style-type: none;
   padding-left: 0;
