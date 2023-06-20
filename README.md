@@ -14,3 +14,7 @@ This is the second project of the Web Development program at Practicum. It was c
 ## Plan on improving the project
 
 Noticed nav links did not match the page layout. Rearranged links to be more inline with the way the page was coded.
+
+### URL
+
+https://phil-peraza.github.io/se_project_coffeeshop/
